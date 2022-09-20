@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>Home
       <div id="home">
-        <h1 style={{ color: "firebrick" }}>Your Name is {name}a Web Developer from Your City {city}</h1>
+        <h1 style={{ color: "firebrick" }}>{name} is a Web Developer from {city}</h1>
       </div>
     </div>
   );
